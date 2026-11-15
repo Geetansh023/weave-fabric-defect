@@ -3,7 +3,7 @@
 
 A fresh prototype implementation of a fabric-defect classifier with a ResNet18 model, Grad-CAM visual explanations, and a Streamlit interface.
 
-![Weave synthetic demonstration](docs/demo-desktop.png)
+![Weave synthetic demonstration](docs/6-demo-desktop.png)
 
 > **Status: synthetic demonstration, not a validated fabric inspection system.**
 > This project was written from scratch in November 2026. It does not reconstruct an earlier project, recover prior experiments, or substantiate historical CV claims. No real fabric dataset was supplied. The screenshot shows a model trained on generated patterns. The displayed scores are uncalibrated model outputs, not real-world accuracy.
@@ -114,7 +114,7 @@ Scores are softmax outputs. They are not calibrated probabilities, test accuracy
 - `docs/synthetic-training-run.json`: the recorded four-epoch synthetic run, seed 42.
 - `docs/synthetic-test-run.json`: held-out generated-fixture evaluation from that run. Strong results on these easy procedural patterns say nothing about performance on real fabric.
 - `docs/tested-environment.txt`: the exact environment used for review, including CPU package versions. It is an audit record, not a cross-platform lockfile.
-- `docs/demo-desktop.png`, `docs/demo-intact.png`, `docs/demo-mobile.png`: screenshots of the running app.
+- `docs/6-demo-desktop.png`: screenshot of the running app. Additional desktop and mobile captures are included in the private review package.
 - `docs/verification.md`: interactions and checks performed.
 
 No real-world metrics, dataset benchmark claims or historical training results are included. The next useful step is to obtain a licensed real fabric dataset, train with an independent split, and review failure cases.
